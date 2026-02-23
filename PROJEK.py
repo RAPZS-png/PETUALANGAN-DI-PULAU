@@ -112,7 +112,7 @@ def tidur():
 
 
 
-def prolog(nama, skip = True):
+def prolog(nama, skip = False):
     if skip:
         return
     tampil_hari()
